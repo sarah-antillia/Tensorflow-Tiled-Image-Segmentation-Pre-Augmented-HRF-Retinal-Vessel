@@ -40,8 +40,7 @@ the Tiled Image Segmentation based on a simple UNet model trained by a tiledly-s
 is an effective method for the large image segmentation over 3K pixels.
 Furthermore, as mentioned in 
 <a href="https://github.com/sarah-antillia/Tensorflow-Tiled-Image-Segmentation-Pre-Augmented-STARE-Retinal-Vessel">
-Tensorflow-Tiled-Image-Segmentation-Pre-Augmented-STARE-Retinal-Vessel</a>,  
-it is difficult to precisely segment retinal blood vessels in small images using a simple UNet model 
+Tensorflow-Tiled-Image-Segmentation-Pre-Augmented-STARE-Retinal-Vessel</a>, it is difficult to precisely segment retinal blood vessels in small images using a simple UNet model 
 because these vessels are typically very thin. However, the image size of HRF is 3504x2336 pixels and large enough 
 for our segmetation model without upscaling.
 <br>
